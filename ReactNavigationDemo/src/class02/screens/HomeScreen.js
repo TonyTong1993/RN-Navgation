@@ -6,17 +6,17 @@ import {
   StyleSheet,
   View,
   Text,
+  Button,
 } from 'react-native';
 
 class HomeScreen extends Component {
-	static navigationOptions = {
-		title:"Home",
-	};
+
   render() {
+
     return (
       <View >
       	<Text>
-      		Hello,Navigation!
+      		Hello,Chat App!
       	</Text>
       </View>
     );
@@ -26,8 +26,4 @@ class HomeScreen extends Component {
 const styles = StyleSheet.create({
 
 });
-const SimpleApp = StackNavigator({
-	Home:{screen:HomeScreen}
-})
-
-export default SimpleApp;
+export default HomeScreen;

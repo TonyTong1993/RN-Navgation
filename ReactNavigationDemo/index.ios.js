@@ -5,7 +5,7 @@
  */
 
 import React, { Component } from 'react';
-import SimpleApp from './src/screens/HomeScreen';
+import SimpleApp from './src/class04/SimpleApp';
 import {
   AppRegistry,
   StyleSheet,
